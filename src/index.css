@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+.banner{
+    background-image: url("../public/image//banner_desktop.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-size: cover;
+}
+
+@layer components {
+    /* html,
+  body,
+  #root {
+    @apply h-full;
+  }
+  html {
+    scroll-behavior: smooth;
+  } */
+  #root {
+    @apply flex flex-col;
+  }
+  main {
+    @apply grow;
+  }
+}
