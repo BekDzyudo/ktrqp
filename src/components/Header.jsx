@@ -12,14 +12,14 @@ function Header() {
               <NavLink to="/" className="font-normal hover:text-blue-300">
                 Bosh sahifa
               </NavLink>
-              <NavLink to="/materiallar" className="font-normal hover:text-blue-300">
+               <NavLink to="/adabiyotlar" className="font-normal hover:text-blue-300">
+                Adabiyotlar
+              </NavLink>
+              <NavLink className="font-normal hover:text-blue-300">
                 Kurslar
               </NavLink>
               <NavLink className="font-normal hover:text-blue-300">
                 Xizmatlar
-              </NavLink>
-              <NavLink className="font-normal hover:text-blue-300">
-                Biz haqimizda
               </NavLink>
               <NavLink className="font-normal hover:text-blue-300">
                 Yangiliklar va e’lonlar

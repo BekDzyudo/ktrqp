@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import MainLayouts from './layouts/MainLayouts'
 import Home from './pages/Home'
+import Adabiyotlar1 from './pages/Adabiyotlar1'
 import Adabiyotlar from './pages/Adabiyotlar'
-import Fanlar from './pages/Fanlar'
 import Materiallar from './pages/Materiallar'
 
 function App() {
@@ -17,15 +17,15 @@ function App() {
           element: <Home/>
         },
         {
+          path:"/adabiyotlar1",
+          element:<Adabiyotlar1/>
+        },
+        {
           path:"/adabiyotlar",
-          element:<Adabiyotlar/>
+          element: <Adabiyotlar/>
         },
         {
           path:"/adabiyotlar/:id",
-          element: <Fanlar/>
-        },
-        {
-          path:"/materiallar",
           element: <Materiallar/>
         }
       ]
